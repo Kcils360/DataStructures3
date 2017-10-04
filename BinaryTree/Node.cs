@@ -4,12 +4,12 @@ using System.Text;
 
 namespace BinaryTree
 {
-    class Leaf
+    class Node
     {
         public int Value;
-        public Leaf left;
-        public Leaf right;
-        public Leaf(int data)
+        public Node left;
+        public Node right;
+        public Node(int data)
         {
             Value = data;
             left = null;
